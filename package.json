@@ -1,0 +1,28 @@
+{
+  "name": "Dashboard",
+  "version": "1.0.0",
+  "description": "Graphical element library",
+  "main": "index.js",
+  "author": "Jānis Liepa",
+  "license": "MIT",
+  "peerDependencies": {
+  },
+  "dependencies": {
+    "chart.js": "^1.1.1",
+    "react-chartjs": "^0.8.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "server": "webpack-dev-server --content-base src/ --inline --hot"
+  }
+}
